@@ -1,0 +1,12 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card title={listViewReadableName} icon-name="standard:case">
+        <lightning-datatable
+            key-field="id"
+            columns={colunms}
+            data={records}
+            hide-checkbox-column=true
+            onrowaction={handleRowAction}>
+        </lightning-datatable>
+    </lightning-card>
+</template>
